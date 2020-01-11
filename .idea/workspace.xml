@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fc0d9e5-68e0-4dd3-85e9-04bd5c11c361" name="Default Changelist" comment="" />
+    <list default="true" id="3fc0d9e5-68e0-4dd3-85e9-04bd5c11c361" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/framework/pages/department.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/AboutUs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/Courses.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/Department.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/IndexMethod.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/News.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/AboutUs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Courses.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Department.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/pages/courses.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/pages/courses.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/pages/departmentDetails.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/pages/departments.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/pages/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/pages/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/pages/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +60,9 @@
     </expand>
     <select />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
@@ -73,6 +93,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -84,17 +105,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@a68912d" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -130,6 +141,11 @@
       <workItem from="1578325264174" duration="1623000" />
       <workItem from="1578327250417" duration="1531000" />
       <workItem from="1578328826931" duration="3037000" />
+      <workItem from="1578336958169" duration="125000" />
+      <workItem from="1578496781709" duration="63000" />
+      <workItem from="1578595900243" duration="6967000" />
+      <workItem from="1578646750733" duration="52000" />
+      <workItem from="1578686109778" duration="2447000" />
     </task>
     <servers />
   </component>
@@ -141,10 +157,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="908" y="349" width="800" height="677" key="#Inspections/67.27.1853.1053@67.27.1853.1053" timestamp="1578056422730" />
-    <state x="588" y="214" width="800" height="677" key="#SQL_Dialects" timestamp="1578054783108">
+    <state x="588" y="214" width="800" height="677" key="#SQL_Dialects" timestamp="1578602707065">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="214" width="800" height="677" key="#SQL_Dialects/67.27.1853.1053@67.27.1853.1053" timestamp="1578054783108" />
+    <state x="588" y="214" width="800" height="677" key="#SQL_Dialects/67.27.1853.1053@67.27.1853.1053" timestamp="1578602707065" />
     <state x="588" y="214" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577991675893">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -153,10 +169,14 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="685" y="357" width="606" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1577037166002" />
-    <state x="1189" y="310" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1577299901001">
+    <state x="490" y="27" width="996" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578687971466">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="1189" y="310" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1577299901001" />
+    <state x="490" y="27" width="996" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578687971466" />
+    <state x="1189" y="310" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1578599701232">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="1189" y="310" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578599701232" />
     <state width="1244" height="278" key="GridCell.Tab.0.bottom" timestamp="1578328857071">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -177,6 +197,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="326" height="500" key="HiddenNamespacesPopup/67.27.1853.1053@67.27.1853.1053" timestamp="1577991710888" />
+    <state x="656" y="366" width="665" height="373" key="NewPhpClassDialog" timestamp="1578686826016">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="656" y="366" width="665" height="373" key="NewPhpClassDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578686826016" />
     <state x="789" y="478" width="399" height="149" key="NewPhpFileDialog" timestamp="1577962287729">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -189,9 +213,13 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="832" y="277" width="313" height="551" key="com.intellij.database.view.ui.DbObjectDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1577991764394" />
-    <state x="544" y="249" key="com.intellij.ide.util.TipDialog" timestamp="1578328826790">
+    <state x="544" y="249" key="com.intellij.ide.util.TipDialog" timestamp="1578763876591">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="544" y="249" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578328826790" />
+    <state x="544" y="249" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578763876591" />
+    <state x="738" y="196" width="501" height="713" key="refactoring.ChangeSignatureDialog" timestamp="1578604234324">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="738" y="196" width="501" height="713" key="refactoring.ChangeSignatureDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578604234324" />
   </component>
 </project>

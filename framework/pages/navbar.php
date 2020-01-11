@@ -1,20 +1,9 @@
 <?php
 
+use Models\Department;
 
-$connect = get_connection();
-
-$result = mysqli_query($connect, "SELECT * FROM `departments`");
-if (!$result) {
-    printf("Сообщение ошибки: %s\n", mysqli_error($connect));
-    exit();
-}
-
-$departments = [];
-while ($row = mysqli_fetch_assoc($result)) {
-    $departments[] = $row;
-}
-mysqli_free_result($result);
-mysqli_close($connect);
+$departmentModel = new Department();
+$departments = $departmentModel->getDepartments();
 ?>
 
 

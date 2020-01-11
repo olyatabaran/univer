@@ -1,23 +1,10 @@
 <?php
 
-$connect = get_connection();
+use Models\Courses;
 
-$result = mysqli_query($connect, "SELECT * FROM `courses`");
-if (!$result) {
-    printf("Сообщение ошибки: %s\n", mysqli_error($connect));
-    exit();
-}
+$coursesModel = new Courses();
+$courses = $coursesModel->getAll();
 
-
-$courses = [];
-while ($row = mysqli_fetch_assoc($result)) {
-    $row ['ultimateTime'] = getSeconds($row['updateTime']);
-    $courses[] = $row;
-}
-
-
-mysqli_free_result($result);
-mysqli_close($connect);
 ?>
 
 

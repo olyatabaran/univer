@@ -1,22 +1,8 @@
 <?php
+use Models\AboutUs;
+$modelAboutUs = new AboutUs();
+$titles = $modelAboutUs->getAll();
 
-$connect = get_connection();
-
-$result = mysqli_query($connect, "SELECT * FROM `about_us`");
-if (!$result) {
-    printf("Сообщение ошибки: %s\n", mysqli_error($connect));
-    exit();
-}
-
-$titles = [];
-while ($row = mysqli_fetch_assoc($result)) {
-    $row ['ultimateTime'] = getSeconds($row['updateDate']);
-    $titles[] = $row;
-}
-
-
-mysqli_free_result($result);
-mysqli_close($connect);
 ?>
     <div class="bd-example">
         <div id="carouselExampleCaptions" class="carousel slide " data-ride="carousel">
