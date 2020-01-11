@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fc0d9e5-68e0-4dd3-85e9-04bd5c11c361" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/framework/pages/department.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controllers/AboutUs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controllers/Courses.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controllers/Department.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controllers/IndexMethod.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controllers/News.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/AboutUs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/Courses.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/Department.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/pages/courses.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/pages/courses.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/pages/departmentDetails.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/pages/departments.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/pages/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/pages/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/pages/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.php" afterDir="false" />
-    </list>
+    <list default="true" id="3fc0d9e5-68e0-4dd3-85e9-04bd5c11c361" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -146,6 +129,7 @@
       <workItem from="1578595900243" duration="6967000" />
       <workItem from="1578646750733" duration="52000" />
       <workItem from="1578686109778" duration="2447000" />
+      <workItem from="1578763872160" duration="230000" />
     </task>
     <servers />
   </component>
@@ -213,10 +197,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="832" y="277" width="313" height="551" key="com.intellij.database.view.ui.DbObjectDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1577991764394" />
-    <state x="544" y="249" key="com.intellij.ide.util.TipDialog" timestamp="1578763876591">
+    <state x="544" y="249" key="com.intellij.ide.util.TipDialog" timestamp="1578764981566">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="544" y="249" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578763876591" />
+    <state x="544" y="249" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578764981566" />
     <state x="738" y="196" width="501" height="713" key="refactoring.ChangeSignatureDialog" timestamp="1578604234324">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
